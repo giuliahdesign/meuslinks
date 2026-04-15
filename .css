@@ -1,0 +1,120 @@
+img { 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family:"Poppins", sans-serif;
+    letter-spacing: -2px;
+    color: rgb(88, 177, 255);
+    text-shadow: 5px 5px 12px rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+}
+
+p {
+    font-family:"Poppins", sans-serif;
+    line-height: 1.5px;
+    color: aliceblue;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    margin-top: 0;
+}
+
+li {
+    font-family:"Poppins", sans-serif;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none; /* Cada item da lista terá um foguete na frente */
+    padding: 0px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+body {
+    display: flex;           /* Ativa o modo Flexbox */
+    justify-content: center; /* Centraliza na horizontal (esquerda/direita) */
+    align-items: center;     /* Centraliza na vertical (cima/baixo) */
+    min-height: 100vh;       /* Garante que o corpo tenha a altura total da tela */
+    margin: 0;               /* Remove margens padrão do navegador */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;  /* Empilha os itens um embaixo do outro */
+    align-items: center;     /* Alinha todos os itens no centro horizontal do card */
+    text-align: center;      /* Garante que os textos (h1, p) também fiquem centralizados */
+}
+
+.lista-redes a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    transition: transform 0.5s;
+}
+
+.lista-redes a:hover {
+    transform: scale(1.05);
+}
+
+.lista-redes svg {
+    display: block;
+}
+
+body {
+    background-image: url(assets/fundoazul.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(4, 4, 52);
+    background-blend-mode: overlay;
+}
+
+
+.one {
+     background-color: rgba(23, 25, 119, 0.607); 
+    
+    /* Um leve borrão no fundo para dar estilo */
+    backdrop-filter: blur(5px);
+    
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.two {
+     background-color: rgba(23, 25, 119, 0.607); 
+    
+    /* Um leve borrão no fundo para dar estilo */
+    backdrop-filter: blur(5px);
+    
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.three {
+    background-color: rgba(23, 25, 119, 0.607); 
+    
+    /* Um leve borrão no fundo para dar estilo */
+    backdrop-filter: blur(5px);
+    
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
